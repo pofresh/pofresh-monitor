@@ -1,4 +1,4 @@
-var systemMonitor = require('../lib/systemMonitor');
+const systemMonitor = require('../lib/systemMonitor');
 
 function test() {
 	systemMonitor.getSysInfo(function(err, data) {
