@@ -9,9 +9,9 @@ Simple, comprehensive monitoring tool for operating-system and process in nodejs
 
 ## Usage
 
-	var monitor = require('pofresh-monitor');
+	const monitor = require('pofresh-monitor');
 
-	var param = {
+	const param = {
 		pid: process.pid,
 		serverId: 'node-1'
 	};
@@ -36,7 +36,7 @@ Simple, comprehensive monitoring tool for operating-system and process in nodejs
 
 (The MIT License)
 
-Copyright (c) 2012-2019 NetEase inc. and other contributors.
+Copyright (c) 2020 luson and other contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
